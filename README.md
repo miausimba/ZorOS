@@ -21,6 +21,9 @@ ZorOS/
 │   │       ├── commands/
 │   │       ├── controllers/
 │   │       └── internal/
+│   ├── system/
+│   │   ├── programs/
+│   │   └── ...
 ├── iso/              
 ├── src/              
 │   ├── app/
