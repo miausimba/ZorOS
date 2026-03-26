@@ -1,0 +1,31 @@
+# build files
+*.o
+*.d
+*.so
+*.map
+*.elf
+*.efi
+
+# raw disk image
+*.img
+*.bin
+*.iso
+
+# qemu/virtualbox/vmware or similar
+*.qcow2
+*.vdi
+*.vmdk
+*.vhdx
+*.qcow2
+*.vdi
+*.vmdk
+*.vhdx
+
+# directories
+build/
+bin/
+gnu-efi/
+
+*.err
+*.out
+
