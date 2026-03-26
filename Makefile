@@ -32,6 +32,9 @@ APP_DIR     := $(SRC_DIR)/app
 APP_CRITICAL_DIR := $(APP_DIR)/critical
 APP_INTERNAL_DIR := $(APP_CRITICAL_DIR)/internal
 APP_COMMANDS_DIR := $(APP_CRITICAL_DIR)/commands
+APP_SYSTEM_DIR := $(APP_DIR)/system
+APP_SYSTEM_PROGRAMS_DIR := $(APP_SYSTEM_DIR)/programs
+APP_GAMES_DIR := $(APP_DIR)/games
 
 # ──────────────────────────────────────────────────────────────
 # 2. Compilation Flags

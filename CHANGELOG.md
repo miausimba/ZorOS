@@ -15,3 +15,20 @@ this is a changelog for ZorOS, view the diferent version and change's in the ope
         * bootloader
         * shell
         * applications
+
+### - version_0.0.2:
+* BUILD: 02AA: 
+    * relased 25/03/2026 
+    * description: this is a second version created by miaumiausimba, implement the application notepad, and the update in keyboard driver, 
+    * author: miaumiausimba
+    * features: 
+        * notepad application
+        * keyboard driver update
+
+* BUILD: 02AB: 
+    * relased 26/03/2026 
+    * description: Fix bugs in the shell and notepad applications, and simplify the codebase for shell.
+    * author: miaumiausimba
+    * features: 
+        * shell application update
+        * notepad application update

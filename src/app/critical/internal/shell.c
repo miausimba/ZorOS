@@ -6,6 +6,7 @@
 #include <stddef.h>
 
 // aplication commands
+#include <app/critical/commands/help.h>
 #include <app/critical/commands/info.h>
 
 // aplication criticals
@@ -13,6 +14,9 @@
 
 // complements, controllers and tools
 #include <app/critical/controllers/timer.h>
+
+// system
+#include <app/system/programs/notepad.h>
 
 // Minimal strcmp implementation for our freestanding kernel
 static int my_strcmp(const char *s1, const char *s2) {
@@ -51,9 +55,7 @@ void shell_prompt(void) {
       // Process command
       if (line_pos > 0) {
         if (my_strcmp(line, "help") == 0) {
-          vga_write("Available commands:\nhelp - Show this message\nclear - "
-                    "Clear screen\ninfo - Show system info\npowersoff - "
-                    "Shutdown ZorOS\n");
+          help();
         } else if (my_strcmp(line, "clear") == 0) {
           vga_clear();
         } else if (my_strcmp(line, "info") == 0) {
@@ -65,6 +67,8 @@ void shell_prompt(void) {
             timer_wait(150);
           }
           poweroff();
+        } else if (my_strcmp(line, "notepad") == 0) {
+          notepad_run();
         } else {
           vga_write("Unknown command: ");
           vga_write(line);
