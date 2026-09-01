@@ -7,7 +7,7 @@
 
 #define KERNEL_NAME "ZorOS"
 #define KERNEL_VERSION "0.0.2"
-#define KERNEL_BUILD "02AB"
+#define KERNEL_BUILD "02AC"
 #define KERNEL_CODENAME "fish"
 #define KERNEL_NAME_VERSION                                                    \
   KERNEL_NAME " " KERNEL_VERSION " (" KERNEL_CODENAME ")"

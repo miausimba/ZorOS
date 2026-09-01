@@ -3,6 +3,7 @@
 #include <drivers/interruption/gdt/gdt.h>
 #include <drivers/interruption/idt/idt.h>
 #include <drivers/interruption/irq/irq.h>
+#include <drivers/hardware/keyboard.h>
 #include <drivers/vga.h>
 #include <kernel/kernel.h>
 

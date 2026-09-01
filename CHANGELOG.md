@@ -32,3 +32,12 @@ this is a changelog for ZorOS, view the diferent version and change's in the ope
     * features: 
         * shell application update
         * notepad application update
+
+* BUILD: 02AC:
+	* relased 01/09/26
+	* description: fix bug in src/kernel/kernel.c "lost driver"
+	* author: miaumiausimba
+	* features:
+		* fix the "lost driver" i kernel.c
+		* add mode manually to make the iso
+
